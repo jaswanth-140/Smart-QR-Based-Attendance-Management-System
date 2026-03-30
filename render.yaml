@@ -32,7 +32,6 @@ services:
   - type: web
     name: smart-attendance-frontend
     runtime: static
-    plan: free
     buildCommand: npm ci && npm run build
     staticPublishPath: ./dist
     autoDeploy: true
