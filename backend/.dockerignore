@@ -1,0 +1,8 @@
+target
+.mvn
+mvnw
+mvnw.cmd
+*.log
+*.txt
+verify-start.out.log
+run_backend.log
